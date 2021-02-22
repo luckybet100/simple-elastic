@@ -214,6 +214,16 @@ async def init_elastic():
             "index": {
                 "analysis": {
                     "analyzer": {
+                        "my_text_analyzer": {
+                            "type": "custom",
+                            "tokenizer": "standard",
+                            "filter": [
+                                "lowercase",
+                                "russian_morphology",
+                                "english_morphology",
+                                "ngram_filter"
+                            ]
+                        },
                         "my_search_analyzer": {
                             "type": "custom",
                             "tokenizer": "standard",
@@ -225,6 +235,11 @@ async def init_elastic():
                         },
                     },
                     "filter": {
+                        "ngram_filter": {
+                            "type": "nGram",
+                            "min_gram": 4,
+                            "max_gram": 16
+                        }
                     }
                 }
             }
@@ -234,15 +249,15 @@ async def init_elastic():
         "properties": {
             "title": {
                 "type": "string",
-                "analyzer": "my_search_analyzer"
+                "analyzer": "my_text_analyzer"
             },
             "city": {
                 "type": "string",
-                "analyzer": "my_search_analyzer"
+                "analyzer": "my_text_analyzer"
             },
             "region": {
                 "type": "string",
-                "analyzer": "my_search_analyzer"
+                "analyzer": "my_text_analyzer"
             },
         }
     }, index="museums")
