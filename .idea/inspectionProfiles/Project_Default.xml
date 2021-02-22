@@ -1,0 +1,126 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="113">
+            <item index="0" class="java.lang.String" itemvalue="pickleshare" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="2" class="java.lang.String" itemvalue="python-slugify" />
+            <item index="3" class="java.lang.String" itemvalue="nitpick" />
+            <item index="4" class="java.lang.String" itemvalue="redis" />
+            <item index="5" class="java.lang.String" itemvalue="flake8-commas" />
+            <item index="6" class="java.lang.String" itemvalue="flake8-quotes" />
+            <item index="7" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="8" class="java.lang.String" itemvalue="safety" />
+            <item index="9" class="java.lang.String" itemvalue="sphinx-autodoc-typehints" />
+            <item index="10" class="java.lang.String" itemvalue="flake8-debugger" />
+            <item index="11" class="java.lang.String" itemvalue="django-health-check" />
+            <item index="12" class="java.lang.String" itemvalue="dotenv-linter" />
+            <item index="13" class="java.lang.String" itemvalue="django-simple-history" />
+            <item index="14" class="java.lang.String" itemvalue="django-http-referrer-policy" />
+            <item index="15" class="java.lang.String" itemvalue="django-coverage-plugin" />
+            <item index="16" class="java.lang.String" itemvalue="pep8-naming" />
+            <item index="17" class="java.lang.String" itemvalue="pydub" />
+            <item index="18" class="java.lang.String" itemvalue="pexpect" />
+            <item index="19" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="20" class="java.lang.String" itemvalue="django-test-migrations" />
+            <item index="21" class="java.lang.String" itemvalue="scikit-surprise" />
+            <item index="22" class="java.lang.String" itemvalue="doc8" />
+            <item index="23" class="java.lang.String" itemvalue="jedi" />
+            <item index="24" class="java.lang.String" itemvalue="boto3" />
+            <item index="25" class="java.lang.String" itemvalue="dparse" />
+            <item index="26" class="java.lang.String" itemvalue="nplusone" />
+            <item index="27" class="java.lang.String" itemvalue="wemake-python-styleguide" />
+            <item index="28" class="java.lang.String" itemvalue="drf-jwt" />
+            <item index="29" class="java.lang.String" itemvalue="pytest-randomly" />
+            <item index="30" class="java.lang.String" itemvalue="python-crontab" />
+            <item index="31" class="java.lang.String" itemvalue="django-storages" />
+            <item index="32" class="java.lang.String" itemvalue="drf-yasg" />
+            <item index="33" class="java.lang.String" itemvalue="celery" />
+            <item index="34" class="java.lang.String" itemvalue="zipp" />
+            <item index="35" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="36" class="java.lang.String" itemvalue="flake8-logging-format" />
+            <item index="37" class="java.lang.String" itemvalue="pytest-timeout" />
+            <item index="38" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="39" class="java.lang.String" itemvalue="flake8-comprehensions" />
+            <item index="40" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="41" class="java.lang.String" itemvalue="blinker" />
+            <item index="42" class="java.lang.String" itemvalue="scipy" />
+            <item index="43" class="java.lang.String" itemvalue="flake8-docstrings" />
+            <item index="44" class="java.lang.String" itemvalue="phonenumbers" />
+            <item index="45" class="java.lang.String" itemvalue="flake8-django" />
+            <item index="46" class="java.lang.String" itemvalue="flake8-broken-line" />
+            <item index="47" class="java.lang.String" itemvalue="astor" />
+            <item index="48" class="java.lang.String" itemvalue="django-feature-policy" />
+            <item index="49" class="java.lang.String" itemvalue="django-debug-toolbar" />
+            <item index="50" class="java.lang.String" itemvalue="dictdiffer" />
+            <item index="51" class="java.lang.String" itemvalue="sortedcontainers" />
+            <item index="52" class="java.lang.String" itemvalue="pandas" />
+            <item index="53" class="java.lang.String" itemvalue="django-axes" />
+            <item index="54" class="java.lang.String" itemvalue="django-redis" />
+            <item index="55" class="java.lang.String" itemvalue="polib" />
+            <item index="56" class="java.lang.String" itemvalue="python-decouple" />
+            <item index="57" class="java.lang.String" itemvalue="pyjwt" />
+            <item index="58" class="java.lang.String" itemvalue="inflection" />
+            <item index="59" class="java.lang.String" itemvalue="marshmallow-polyfield" />
+            <item index="60" class="java.lang.String" itemvalue="traitlets" />
+            <item index="61" class="java.lang.String" itemvalue="mypy" />
+            <item index="62" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="63" class="java.lang.String" itemvalue="django-split-settings" />
+            <item index="64" class="java.lang.String" itemvalue="django-stubs" />
+            <item index="65" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="66" class="java.lang.String" itemvalue="flake8-bugbear" />
+            <item index="67" class="java.lang.String" itemvalue="dennis" />
+            <item index="68" class="java.lang.String" itemvalue="django-extensions" />
+            <item index="69" class="java.lang.String" itemvalue="appdirs" />
+            <item index="70" class="java.lang.String" itemvalue="docopt" />
+            <item index="71" class="java.lang.String" itemvalue="hyper" />
+            <item index="72" class="java.lang.String" itemvalue="flake8-string-format" />
+            <item index="73" class="java.lang.String" itemvalue="flake8-eradicate" />
+            <item index="74" class="java.lang.String" itemvalue="django-celery-beat" />
+            <item index="75" class="java.lang.String" itemvalue="surprise" />
+            <item index="76" class="java.lang.String" itemvalue="flake8-plugin-utils" />
+            <item index="77" class="java.lang.String" itemvalue="cryptography" />
+            <item index="78" class="java.lang.String" itemvalue="django-querycount" />
+            <item index="79" class="java.lang.String" itemvalue="appnope" />
+            <item index="80" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="81" class="java.lang.String" itemvalue="pytest-deadfixtures" />
+            <item index="82" class="java.lang.String" itemvalue="flake8-isort" />
+            <item index="83" class="java.lang.String" itemvalue="backcall" />
+            <item index="84" class="java.lang.String" itemvalue="django-csp" />
+            <item index="85" class="java.lang.String" itemvalue="flake8-bandit" />
+            <item index="86" class="java.lang.String" itemvalue="pathspec" />
+            <item index="87" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="88" class="java.lang.String" itemvalue="structlog" />
+            <item index="89" class="java.lang.String" itemvalue="django-migration-linter" />
+            <item index="90" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="91" class="java.lang.String" itemvalue="django-phonenumber-field" />
+            <item index="92" class="java.lang.String" itemvalue="click-default-group" />
+            <item index="93" class="java.lang.String" itemvalue="coverage" />
+            <item index="94" class="java.lang.String" itemvalue="pytest" />
+            <item index="95" class="java.lang.String" itemvalue="yamllint" />
+            <item index="96" class="java.lang.String" itemvalue="ruamel.yaml" />
+            <item index="97" class="java.lang.String" itemvalue="ipython" />
+            <item index="98" class="java.lang.String" itemvalue="darglint" />
+            <item index="99" class="java.lang.String" itemvalue="flake8-pytest-style" />
+            <item index="100" class="java.lang.String" itemvalue="polint" />
+            <item index="101" class="java.lang.String" itemvalue="sphinx" />
+            <item index="102" class="java.lang.String" itemvalue="coreapi" />
+            <item index="103" class="java.lang.String" itemvalue="django-ipware" />
+            <item index="104" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="105" class="java.lang.String" itemvalue="facebook-sdk" />
+            <item index="106" class="java.lang.String" itemvalue="pytest-testmon" />
+            <item index="107" class="java.lang.String" itemvalue="apns2" />
+            <item index="108" class="java.lang.String" itemvalue="flake8-rst-docstrings" />
+            <item index="109" class="java.lang.String" itemvalue="django-timezone-field" />
+            <item index="110" class="java.lang.String" itemvalue="dump-env" />
+            <item index="111" class="java.lang.String" itemvalue="ply" />
+            <item index="112" class="java.lang.String" itemvalue="hypothesis" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
